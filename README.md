@@ -51,6 +51,7 @@
  ## Notes / Improvements With More Time
  If I had more time, I would:
  - Introduce Swift Package Manager for modularization if the app grows
+ - Replace closures in some flows with Combine publishers for more reactive data flow, better testability, and clearer event handling
  - Implement Use Cases / Interactors to encapsulate business logic and orchestrate multiple repositories
  - Improve UI styling to match modern chat/inbox apps (avatars, bubbles, spacing, typography)
  - Add search in Inbox
